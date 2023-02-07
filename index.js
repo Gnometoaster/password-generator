@@ -23,8 +23,8 @@ function generatePassword() {
     }
 }
 
-function copyToClipboard() {
-    passwordElOne.select()
-    navigator.clipboard.writeText(passwordElOne.value)
-    alert("Password copied" + passwordElOne.value)
-}
+// function copyToClipboard() {
+//     passwordElOne.select()
+//     navigator.clipboard.writeText(passwordElOne.value)
+//     alert("Password copied" + passwordElOne.value)
+// }
