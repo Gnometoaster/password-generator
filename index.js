@@ -28,3 +28,4 @@ function generatePassword() {
 //     navigator.clipboard.writeText(passwordElOne.value)
 //     alert("Password copied" + passwordElOne.value)
 // }
+// Cannot get copy function to work
