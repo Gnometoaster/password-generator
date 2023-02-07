@@ -6,7 +6,7 @@ body {
 
 .main {
   height: 550px;
-  width: 450px;
+  width: 500px;
   margin: 60px auto;
   background-color: #1F2937;
   color: white;
@@ -33,11 +33,11 @@ p {
   margin-top: 0;
 }
 
+
+
 .btn {
   height: 35px;
-  width: 150px;
-  left: 52px;
-  top: 284px;
+  width: 180px;
   border: none;
   border-radius: 6px;
   padding: 6px 10px 6px 10px;
@@ -45,5 +45,42 @@ p {
   color: white;
   margin-bottom: 35px;
   margin-top: 50px;
+
+}
+
+#generate-btn {
+  margin-right: 50px;
+}
+
+
+.passwords {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+#password-el-one {
+  height: 40px;
+  width: 210px;
+  background: #273549;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #55F991;
+  border: none;
+
+
+}
+#password-el-two  {
+  height: 40px;
+  width: 210px;
+  background: #273549;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #55F991;
+
 
 }
