@@ -33,7 +33,28 @@ p {
   margin-top: 0;
 }
 
+.options {
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #55F991;
+  font-family: Karla, sans-serif;
+}
 
+.character-amount-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#password-length {
+  margin-left: 20px;
+}
+
+#symbols {
+  margin-left: 8px;
+}
 
 .btn {
   height: 35px;

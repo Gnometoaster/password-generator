@@ -16,6 +16,23 @@
           <span id="title-alt">random password</span> </h1>
         
         <p>Never use an insecure password again</p>
+        <div class="options">
+          <div>
+          <label for="symbols">Include symbols?</label>
+          <input type="checkbox" id="symbols" checked>
+        </div>
+          <div>
+          <label for="numbers">Include numbers?</label>
+          <input type="checkbox" id="numbers" checked>
+        </div>
+
+        <div class="character-amount-container">
+          <label for="password-length-num">How long?</label>
+          <input type="range" id="password-length-slide" min="8" max="20" value="15" onchange="update">
+          <input type="number" id="password-length-num" min="8" max="20" value="15">
+        </div>
+
+        </div>
         <div class="btn-container">
           <button id="generate-btn" onclick="clearPassword()" class="btn">Generate Password</button>
           <!-- <button class="btn" onclick="copyToClipboard()">Copy Password</button> -->
